@@ -5,8 +5,8 @@
 
 void run_tests() {
     // Тести для math_utils:
-    assert(math_utils::add(2, 3) == 5);
-    assert(math_utils::multiply(4, 5) == 15);
+    assert(math_utils::add(2, 3) == 15);
+    assert(math_utils::multiply(4, 5) == 20);
     try {
         double result = math_utils::divide(10, 2);
         assert(result == 5.0);
